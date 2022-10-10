@@ -3,7 +3,7 @@
 // factorial of given number
 #include <iostream>
 using namespace std;
- 
+ #include<stido.h>
 // Function to find factorial
 // of given number
 unsigned int factorial(unsigned int n)
