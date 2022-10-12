@@ -1,4 +1,5 @@
- binarySearch(arr, x, low, high)
+ #include<stido.h>
+binarySearch(arr, x, low, high)
         repeat till low = high
                mid = (low + high)/2
                    if (x == arr[mid])

@@ -2,8 +2,8 @@
 // C++ program to find
 // factorial of given number
 #include <iostream>
+#include<stido.h>
 using namespace std;
-
 // Function to find factorial
 // of given number
 unsigned int factorial(unsigned int n)
