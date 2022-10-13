@@ -2,8 +2,8 @@
 // C++ program to find
 // factorial of given number
 #include <iostream>
+#include<stido.h>
 using namespace std;
- #include<stido.h>
 // Function to find factorial
 // of given number
 unsigned int factorial(unsigned int n)
@@ -12,7 +12,25 @@ unsigned int factorial(unsigned int n)
         return 1;
     return n * factorial(n - 1);
 }
- 
+
+long int factorial_loop(int x){
+    if(x < 0){
+        return -1;
+    }
+    else if(x == 0){
+        return 1;
+    }
+    else{
+        long int ans = 1;
+        int n = x;
+        while(n != 0){
+            ans = ans*n;
+            n--;
+        }
+        return ans;
+    }
+}
+
 // Driver code
 int main()
 {
